@@ -2,45 +2,47 @@
 
 ### Overview
 
-The main objective of this project is to review review the critical user workflows defined within the agreed project scope, evaluate their consistency and assess the application’s usability and reliability.
+This project is a professional manual QA simulation against the **OpenCart** application. It aims to cover all crucial areas of a manual QA test including test methodology and planning, tests execution, defects severity ranking and documentation.
 
-### System Under Test
+### OpenCart
 
-- Application : **OpenCart 3.0.5.0**
-- Environment : **Local Docker deployment**
-- Device : **Laptop Only**
-- Browser : **Microsoft Edge (latest)**
-- Testing Type : **Manual**
-- In Scope : 
-    * User registration
-    * Login / Logout
-    * Password recovery
-    * Account management
-    * Product browsing
-    * Product search
-    * Categories
-    * Product page
-    * Shopping cart
-    * Wishlist
-    * Product comparison
-    * Checkout process
-    * Contact forms
-    * Customer reviews
-    * Order history
-    * Responsive behavior
-    * Cross-browser compatibility
-    * General usability and UI consistency
+OpenCart is a free, open-source e-commerce platform used to build and manage online stores. It's written in PHP and uses a MySQL database, following a model-view-controller (MVC-L) architecture.
+Key characteristics:
 
-### Deliverables
+    - Self-hosted: You download it and host it on your own server (or a hosting provider), unlike SaaS platforms like Shopify where the platform hosts everything for you.
+    - Free core software: The base platform is free, though many extensions, themes, and premium support cost money.
+    - Extension marketplace: OpenCart has a marketplace with thousands of extensions/modules for payment gateways, shipping methods, marketing tools, etc.
+    - Multi-store support: A single admin panel can manage multiple storefronts.
+    - Built-in features: Product catalog management, order processing, customer accounts, basic reporting, coupon/discount codes, and support for multiple currencies and languages.
 
-The following documents will be delivered by the end of this project :
+### Project Structure
 
-- Test Strategy
-- Test Plan
-- Requirements Analysis
-- RTM
-- Test Scenarios
-- Test Cases
-- Exploratory Testing Notes
-- Bug Reports
-- Final QA Report
+OpenCart-Manual-QA/
+│
+├── README.md
+│
+├── deliverables/
+│   ├── requirements-analysis.md
+│   ├── test-strategy.md
+│   ├── test-plan.md
+│   ├── risk-analysis.md
+│   ├── rtm.md
+│   ├── test-scenarios.md
+│   ├── exploratory-testing.md
+│   ├── final-report.md
+│
+├── test-cases/
+│   └── Test_Cases.xlsx
+│
+├── bug-reports/
+│
+├── artifacts/
+│   ├── screenshots/
+│   └── recordings/
+│
+└── README.md
+
+### Author
+
+**BAZOURHI Mohamed Saad** - QA engineer | Cybersecurity specialist.
+
