@@ -2,9 +2,9 @@
 
 ### Overview
 
-The main objectif of this project is to review all critical user workflows and ensure their consistency, the app's usability and reliability.
+The main objective of this project is to review review the critical user workflows defined within the agreed project scope, evaluate their consistency and assess the application’s usability and reliability.
 
-### SUT
+### System Under Test
 
 - Application : **OpenCart 3.0.5.0**
 - Environment : **Local Docker deployment**
@@ -12,12 +12,24 @@ The main objectif of this project is to review all critical user workflows and e
 - Browser : **Microsoft Edge (latest)**
 - Testing Type : **Manual**
 - In Scope : 
-    * Functional testing
-    * Exploratory testing
-    * UI/UX testing
-    * Usability testing
-    * Basic accessibility observations
-    * Bug reporting
+    * User registration
+    * Login / Logout
+    * Password recovery
+    * Account management
+    * Product browsing
+    * Product search
+    * Categories
+    * Product page
+    * Shopping cart
+    * Wishlist
+    * Product comparison
+    * Checkout process
+    * Contact forms
+    * Customer reviews
+    * Order history
+    * Responsive behavior
+    * Cross-browser compatibility
+    * General usability and UI consistency
 
 ### Deliverables
 
