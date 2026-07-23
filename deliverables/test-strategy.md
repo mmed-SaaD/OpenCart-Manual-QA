@@ -14,55 +14,17 @@ The testing activities aim to:
     - Detect functional, UI, and usability defects.
     - Assess the application's readiness for production.
 
-### System Under Test
-
-- Application : **OpenCart 3.0.5.0**
-- Environment : **Local Docker deployment**
-- Device :
-    * Host Environment : Windows 11
-    * Deployment : Docker
-    * Browser : Microsoft Edge (latest)
-    * Testing Type : Manual
-- Browser : **Microsoft Edge (latest)**
-- Testing Type : **Manual**
-- In Scope : 
-    * User registration
-    * Login / Logout
-    * Password recovery
-    * Account management
-    * Product browsing
-    * Product search
-    * Categories
-    * Product page
-    * Shopping cart
-    * Wishlist
-    * Product comparison
-    * Checkout process
-    * Contact forms
-    * Customer reviews
-    * Order history
-    * Responsive behavior
-    * Cross-browser compatibility
-    * General usability and UI consistency
-- Out of Scope :
-    * Mobile testing
-    * Tablet testing
-    * Cross-browser testing
-    * Performance testing
-    * Security testing
-    * Automation testing
-    * Source code review
-
 ### Test Approach
 
 Testing will primarily consist of :
+
     - Functional Testing
     - Exploratory Testing
-    - Ui Testing
+    - UI Testing
     - Usability Testing
     - Negative Testing Where Appropriate
 
-### Test Design Technique
+### Test Design Techniques
 
 - Requirement-based Testing
 - Risk-based Testing
@@ -70,26 +32,7 @@ Testing will primarily consist of :
 - Equivalence Partitioning
 - Boundary Value Analysis (where applicable)
 - Error Guessing
-- State Transitioning Testing
-
-### Entry Criteria
-
-Testing will begin once:
-
-    - The application is successfully installed.
-    - Database configuration is complete.
-    - Administrator account is created.
-    - Sample data is available.
-    - The application is accessible through Microsoft Edge.
-
-### Exit Criteria
-
-Testing will be considered complete when:
-
-    - All planned test scenarios have been executed.
-    - Critical business workflows have been validated.
-    - All identified defects have been documented.
-    - A final QA summary has been prepared.
+- State Transition Testing
 
 ### Defect Severity
 
@@ -104,17 +47,13 @@ Testing will be considered complete when:
 
 Testing will be conducted during dedicated QA sessions using a stable local environment.
 
-### Responsible Individual
-
-QA engineer **Mohamed Saad B.**
-
 ### Deliverables
 
 The following documents will be delivered by the end of this project :
 
+    - Requirements Analysis
     - Test Strategy
     - Test Plan
-    - Requirements Analysis
     - RTM
     - Test Scenarios
     - Test Cases

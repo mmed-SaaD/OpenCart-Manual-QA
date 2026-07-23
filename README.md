@@ -16,7 +16,7 @@ Key characteristics:
     - Built-in features: Product catalog management, order processing, customer accounts, basic reporting, coupon/discount codes, and support for multiple currencies and languages.
 
 ### Project Structure
-
+```
 OpenCart-Manual-QA/
 │
 ├── README.md
@@ -41,6 +41,7 @@ OpenCart-Manual-QA/
 │   └── recordings/
 │
 └── README.md
+```
 
 ### Author
 
